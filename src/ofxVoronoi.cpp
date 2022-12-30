@@ -264,7 +264,7 @@ void ofxVoronoi::setWeights(std::vector<float>& weights,
         points[i].z = weights[i];
     }
 
-    generateWeighted(false);
+    generateWeighted(true);
 
     // for (int k = 0; k < iterations; ++k)
     //{
